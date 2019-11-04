@@ -1,60 +1,89 @@
-<div class="container-fluid">
-    <div class="d-sm-flex justify-content-between align-items-center mb-4">
-        <h3 class="text-dark mb-0">Giỏ hàng</h3>
-    </div>
-    <div class="card shadow">
-        <div class="card-body">
-            <div class="table-responsive table mt-2" id="dataTable" role="grid" aria-describedby="dataTable_info">
-                <table class="table dataTable my-0" id="dataTable">
-                    <thead>
-                        <tr>
-                            <th>Mặt hàng</th>
-                            <th>Cửa hàng</th>
-                            <th>Địa điểm</th>
-                            <th>Số lượng</th>
-                            <th>Ngày thêm</th>
-                            <th>Số tiền</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Iphone 6</td>
-                            <td>FPT Shop</td>
-                            <td>Hồ Chí Minh</td>
-                            <td>3</td>
-                            <td>2008/11/28</td>
-                            <td>$162,700</td>
-                        </tr>
-                        <tr>
-                            <td>Airpod</td>
-                            <td>Thế giới di động</td>
-                            <td>Hà Nội</td>
-                            <td>2</td>
-                            <td>2009/10/09<br></td>
-                            <td>$100.00</td>
-                        </tr>
-                        <tr>
-                            <td>Macbook</td>
-                            <td>Apple Store</td>
-                            <td>Đà Nẵng</td>
-                            <td>1</td>
-                            <td>2009/01/12<br></td>
-                            <td>$86,000</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td style="font-size: larger;font-weight: bold;color: black;">Tổng</td>
-                            <td>$1000,000</td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr></tr>
-                    </tfoot>
-                </table>
+<main class="page shopping-cart-page">
+    <section class="clean-block clean-cart dark">
+        <div class="container-fluid">
+            <div class="block-heading">
+                <h2 class="text-info">Shopping Cart</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in,
+                    mattis vitae leo.</p>
+            </div>
+            <div class="content">
+                <div class="row no-gutters">
+                    <div class="col-md-12 col-lg-8">
+                        <div class="items">
+                            <div class="product">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-md-3">
+                                        <div class="product-image"><img class="img-fluid d-block mx-auto image"
+                                                src="../assets/img/tech/image2.jpg"></div>
+                                    </div>
+                                    <div class="col-md-5 product-info"><a class="product-name" href="#">Lorem Ipsum
+                                            dolor</a>
+                                        <div class="product-specs">
+                                            <div><span>Display:&nbsp;</span><span class="value">5 inch</span></div>
+                                            <div><span>RAM:&nbsp;</span><span class="value">4GB</span></div>
+                                            <div><span>Memory:&nbsp;</span><span class="value">32GB</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-2 quantity"><label class="d-none d-md-block"
+                                            for="quantity">Quantity</label><input type="number" id="number"
+                                            class="form-control quantity-input" value="1"></div>
+                                    <div class="col-6 col-md-2 price"><span>$120</span></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-md-3">
+                                        <div class="product-image"><img class="img-fluid d-block mx-auto image"
+                                                src="../assets/img/tech/image2.jpg"></div>
+                                    </div>
+                                    <div class="col-md-5 product-info"><a class="product-name" href="#">Lorem Ipsum
+                                            dolor</a>
+                                        <div class="product-specs">
+                                            <div><span>Display:&nbsp;</span><span class="value">5 inch</span></div>
+                                            <div><span>RAM:&nbsp;</span><span class="value">4GB</span></div>
+                                            <div><span>Memory:&nbsp;</span><span class="value">32GB</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-2 quantity"><label class="d-none d-md-block"
+                                            for="quantity">Quantity</label><input type="number" id="number"
+                                            class="form-control quantity-input" value="1"></div>
+                                    <div class="col-6 col-md-2 price"><span>$120</span></div>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-md-3">
+                                        <div class="product-image"><img class="img-fluid d-block mx-auto image"
+                                                src="../assets/img/tech/image2.jpg"></div>
+                                    </div>
+                                    <div class="col-md-5 product-info"><a class="product-name" href="#">Lorem Ipsum
+                                            dolor</a>
+                                        <div class="product-specs">
+                                            <div><span>Display:&nbsp;</span><span class="value">5 inch</span></div>
+                                            <div><span>RAM:&nbsp;</span><span class="value">4GB</span></div>
+                                            <div><span>Memory:&nbsp;</span><span class="value">32GB</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-md-2 quantity"><label class="d-none d-md-block"
+                                            for="quantity">Quantity</label><input type="number" id="number"
+                                            class="form-control quantity-input" value="1"></div>
+                                    <div class="col-6 col-md-2 price"><span>$120</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <div class="summary">
+                            <h3>Summary</h3>
+                            <h4><span class="text">Subtotal</span><span class="price">$360</span></h4>
+                            <h4><span class="text">Discount</span><span class="price">$0</span></h4>
+                            <h4><span class="text">Shipping</span><span class="price">$0</span></h4>
+                            <h4><span class="text">Total</span><span class="price">$360</span></h4><button
+                                class="btn btn-primary btn-block btn-lg" type="button">Checkout</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
+</main>
